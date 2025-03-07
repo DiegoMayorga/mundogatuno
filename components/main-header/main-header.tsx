@@ -21,7 +21,7 @@ export default function MainHeader() {
             <li>
               <NavLink
                 startsWith
-                navPath="meals"
+                navPath="products"
               >
                 Productos
               </NavLink>
@@ -30,7 +30,7 @@ export default function MainHeader() {
               <NavLink
                 navPath="community"
               >
-                Comunidad
+                Sobre Nosotros
               </NavLink>
             </li>
           </ul>
