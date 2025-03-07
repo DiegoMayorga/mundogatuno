@@ -32,7 +32,7 @@ const ProductItem: React.FC<ProductItemProps> = ({
       <div className={classes.content}>
         <p className={classes.summary}>{summary}</p>
         <div className={classes.actions}>
-          <Link href={`/products/${slug}`}>View Details</Link>
+          <Link href={`/products/${slug}`}>Ver detalles</Link>
         </div>
       </div>
     </article>
